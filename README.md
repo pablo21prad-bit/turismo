@@ -1,44 +1,67 @@
-NOMBRE: PABLO PRADO
-DNI: 36146651
+# Proyecto Turismo
 
-Roadmap de Desarrollo - Proyecto CarMotors
-1. Introducción
-Este documento explica de manera simple los pasos que seguí para hacer mi página web CarMotors. No es professional.
-2. Planificación Inicial
-- Quería hacer una página donde se muestren autos, motos y lanchas.
-- También quería agregar un carrito para que se puedan sumar productos.
-- Decidí usar HTML, CSS, JavaScript y Bootstrap.
+**Nombre:** Pablo Prado  
+**DNI:** 36.146.651  
 
-3. Etapas del Desarrollo
-A continuación muestro las etapas de manera simple:
-1. Armé las carpetas del proyecto.
-2. Hice el Home y el navbar.
-3. Creé el archivo productos.json con todos los productos.
-4. Programé las cards para que se muestren solas con JavaScript.
-5. Le agregué los botones de sumar/restar cantidad.
-6. Cree el login con session storage
-7. Hice el carrito con localStorage.
-8. Creé la página carrito.html con la tabla.
-9. Fui corrigiendo errores de rutas y clases hasta que funcionó todo.
-4. Problemas y Soluciones
-- A veces las rutas de los archivos no funcionaban , me atrasaron mucho, en algunos casos use el chat  gpt para ayudar a resolver errores que no podia encontrar,  revisé las carpetas y lo corregí.
+## Introducción
+Este proyecto corresponde a una página web de turismo realizada con fines educativos.
+El objetivo fue practicar el uso de HTML, CSS y JavaScript, aplicando lo visto en clase.
+No es un proyecto profesional, sino un trabajo de aprendizaje.
 
-- Los botones no funcionaban porque no tenían las clases correctas → agregué btn-sumar, btn-restar y btn-carrito.
-- El carrito no guardaba los productos → corregí la clave del localStorage.
+---
 
-5. Resultado Final
-Al final conseguí que:
-- Las cards carguen bien.
-- Se pueda elegir cantidad.
-- Los productos se agreguen al carrito.
-- El carrito muestre todo correctamente.
+## Planificación Inicial
+La idea inicial fue crear una página web donde se muestren distintos destinos turísticos.
+Quería que el sitio tenga un menú de navegación simple y varias páginas, una por cada país.
+Para el desarrollo decidí usar HTML, CSS, JavaScript y Bootstrap.
 
-6. No use tecnologias adicionales
+---
 
-7. Link de github
+## Etapas del Desarrollo
+Las principales etapas del desarrollo fueron:
 
-https://github.com/pablo21prad-bit/Practico1.git
+- Crear la estructura de carpetas del proyecto.
+- Desarrollar la página principal (`index.html`).
+- Crear el navbar usando JavaScript para reutilizarlo en todas las páginas.
+- Crear páginas individuales para cada destino (Brasil, España y Perú).
+- Aplicar estilos con Bootstrap para mejorar el diseño.
+- Agregar imágenes y textos informativos.
+- Probar la navegación entre páginas y corregir errores.
 
-link de video
-https://youtu.be/MOxHDjASZ0o
+---
 
+## Problemas y Soluciones
+Durante el desarrollo surgieron algunos problemas:
+
+- Problemas con las rutas de los archivos al mover carpetas.
+  → Se revisaron y corrigieron las rutas hasta que funcionaron correctamente.
+
+- El navbar no se mostraba en todas las páginas.
+  → Se ajustó el código JavaScript para que se cargue correctamente.
+
+- Algunos estilos no se aplicaban como esperaba.
+  → Se revisaron las clases y los archivos CSS.
+
+En algunos casos utilicé ChatGPT como ayuda para resolver errores que no podía encontrar solo.
+
+---
+
+## Resultado Final
+Al finalizar el proyecto se logró que:
+
+- El sitio tenga varias páginas bien organizadas.
+- El menú de navegación funcione correctamente.
+- Los enlaces naveguen sin errores.
+- El diseño sea simple y adaptable a distintos tamaños de pantalla.
+
+No se utilizaron tecnologías adicionales fuera de las vistas en clase.
+
+---
+
+## Repositorio en GitHub
+(agregar link del repositorio)
+
+---
+
+## Deploy
+(agregar link del sitio publicado en Netlify)
