@@ -64,4 +64,4 @@ https://github.com/pablo21prad-bit/turismo.git
 ---
 
 ## Deploy
-(agregar link del sitio publicado en Netlify)
+https://silly-nougat-26f653.netlify.app/
