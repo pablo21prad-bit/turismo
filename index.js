@@ -1,14 +1,10 @@
 import { navbar } from "./components/navbar.js";
 
-// ================================
-// 1) Render NAVBAR
-// ================================
+
 const header = document.querySelector("header");
 if (header) header.innerHTML = navbar;
 
-// ================================
-// 2) Helpers de sesión + navegación
-// ================================
+
 const KEY_USER = "userdata";
 
 function getUser() {
@@ -29,26 +25,23 @@ function clearUser() {
 }
 
 function goTo(pathFromRoot) {
-  // pathFromRoot ejemplo: "./index.html", "./pages/carrito/carrito.html"
+  
   window.location.href = new URL(pathFromRoot, import.meta.url).href;
 }
 
-// ================================
-// 3) Toggle botones Login/Salir según sesión
-// ================================
+
+//  Toggle botones Login/Salir según sesión
+
 function syncAuthUI() {
   const user = getUser();
 
-  // En el navbar que te pasé:
-  // - el botón Login es un <a> con href a login.html (no tiene id)
-  // - el botón Salir es <button id="btn-logout">
-  // Si querés control total, podés agregar id="btn-login" en el navbar.
+  
   const btnLogout = document.getElementById("btn-logout");
 
-  // Si no existe (por ejemplo en alguna página sin navbar), salimos
+  // Si no existe 
   if (!btnLogout) return;
 
-  // Intentamos encontrar el botón Login por su href (sin romper si cambia)
+  
   const loginLink = document.querySelector('a[href="./pages/login/login.html"]');
 
   if (user) {
@@ -60,9 +53,9 @@ function syncAuthUI() {
   }
 }
 
-// ================================
-// 4) Logout
-// ================================
+
+//  Logout
+
 function setupLogout() {
   const btnLogout = document.getElementById("btn-logout");
   if (!btnLogout) return;
@@ -73,9 +66,9 @@ function setupLogout() {
   });
 }
 
-// ================================
-// 5) Login (solo si existe el form)
-// ================================
+
+//  Login (solo si existe el form)
+
 function setupLogin() {
   const form = document.getElementById("Login");
   if (!form) return;
@@ -95,7 +88,7 @@ function setupLogin() {
     }
 
     try {
-      // ✅ Siempre apunta al data/users.json de la raíz del proyecto
+      
       const usersUrl = new URL("./data/users.json", import.meta.url);
       const res = await fetch(usersUrl);
 
@@ -113,11 +106,9 @@ function setupLogin() {
       if (user) {
         setUser(user);
 
-        // Redirección post-login (elegí una)
-        // 1) Volver al inicio:
+       
         goTo("./index.html");
-        // 2) O mandarlo directo a Brasil:
-        // goTo("./pages/brasil/brasil.html");
+        
       } else {
         alert("Credenciales inválidas. Probá de nuevo.");
       }
@@ -128,9 +119,8 @@ function setupLogin() {
   });
 }
 
-// ================================
-// 6) Init
-// ================================
+
+
 setupLogout();
 setupLogin();
 syncAuthUI();

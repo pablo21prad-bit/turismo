@@ -33,7 +33,7 @@ function actualizarTotalUI(id, nochesBaseFallback = 1) {
   // pasajeros
   const pasajeros = getPasajeros(id);
 
-  // noches (si por alguna razón no existe, uso nochesBase del JSON)
+  // noches 
   let noches = getNoches(id);
   if (Number.isNaN(noches) || noches < 1) noches = nochesBaseFallback;
 

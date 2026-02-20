@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     alert("Registro realizado con éxito. Sesión iniciada.");
 
-    // Redirigir al index (ruta segura)
+    // Redirigir al index
     window.location.href = "../../index.html";
   });
 });
