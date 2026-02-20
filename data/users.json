@@ -1,0 +1,28 @@
+[
+  
+    {
+      "id": 1,
+      "nombre": "Pablo",
+      "apellido": "Prado",
+      "email": "pablo21prad@gmail.com",
+      "pass": "123456",
+      "fechaNacimiento": "1992-06-15"
+    },
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellido": "Gómez",
+      "email": "maria.gomez@example.com",
+      "pass": "mar123",
+      "fechaNacimiento": "1998-11-02"
+    },
+    {
+      "id": 3,
+      "nombre": "Lucas",
+      "apellido": "Fernández",
+      "email": "lucas.fer@example.com",
+      "pass": "luc456",
+      "fechaNacimiento": "2000-03-21"
+    }
+  
+]

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Plataforma Turística</title>
+
+  <link rel="stylesheet" href="../../css/styles.css">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+  >
+</head>
+
+<body data-bs-theme="dark">
+  <header></header>
+
+  <main class="container my-5" style="max-width: 980px;">
+    <div class="mb-4">
+      <h1 class="fw-bold mb-2">Contacto</h1>
+      <p class="text-secondary mb-0">
+        ¿Tenés dudas sobre un paquete o la reserva? Escribinos y te respondemos a la brevedad.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- FORM -->
+      <div class="col-12 col-lg-7">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-3">
+              <i class="bi bi-chat-dots-fill me-2 text-info"></i>
+              Enviarnos un mensaje
+            </h5>
+
+            <form id="formContacto" novalidate>
+              <div class="row g-3">
+
+                <div class="col-12 col-md-6">
+                  <label class="form-label" for="nombre">Nombre</label>
+                  <input class="form-control" type="text" id="nombre" required minlength="2" placeholder="Tu nombre">
+                  <div class="invalid-feedback">Ingresá tu nombre (mín. 2 caracteres).</div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label class="form-label" for="apellido">Apellido</label>
+                  <input class="form-control" type="text" id="apellido" required minlength="2" placeholder="Tu apellido">
+                  <div class="invalid-feedback">Ingresá tu apellido (mín. 2 caracteres).</div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label" for="email">Email</label>
+                  <input class="form-control" type="email" id="email" required placeholder="ejemplo@mail.com">
+                  <div class="invalid-feedback">Ingresá un email válido.</div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label" for="asunto">Asunto</label>
+                  <select class="form-select" id="asunto" required>
+                    <option value="" selected disabled>Seleccioná una opción</option>
+                    <option value="consulta">Consulta general</option>
+                    <option value="paquetes">Dudas sobre paquetes</option>
+                    <option value="reserva">Problema con reserva</option>
+                    <option value="otros">Otros</option>
+                  </select>
+                  <div class="invalid-feedback">Elegí un asunto.</div>
+                </div>
+
+                <div class="col-12">
+                  <label class="form-label" for="mensaje">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" rows="5" required minlength="10"
+                    placeholder="Contanos tu consulta..."></textarea>
+                  <div class="invalid-feedback">Escribí un mensaje (mín. 10 caracteres).</div>
+                </div>
+
+                <div class="col-12 d-grid mt-2">
+                  <button class="btn btn-success btn-lg" type="submit">
+                    Enviar mensaje
+                  </button>
+                </div>
+
+                <div class="col-12">
+                  <p class="text-secondary small mb-0">
+                    *Esto es una simulación académica: el envío se valida en el navegador.
+                  </p>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- INFO -->
+      <div class="col-12 col-lg-5">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-body p-4">
+
+            <h5 class="fw-bold mb-3">
+              <i class="bi bi-info-circle-fill me-2 text-warning"></i>
+              Información
+            </h5>
+
+            <div class="d-flex gap-3 mb-3">
+              <i class="bi bi-envelope-fill fs-5 text-info"></i>
+              <div>
+                <div class="fw-semibold">Email</div>
+                <div class="text-secondary">contacto@turismo.com</div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3">
+              <i class="bi bi-telephone-fill fs-5 text-info"></i>
+              <div>
+                <div class="fw-semibold">Teléfono</div>
+                <div class="text-secondary">+54 351 000 0000</div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-3">
+              <i class="bi bi-geo-alt-fill fs-5 text-info"></i>
+              <div>
+                <div class="fw-semibold">Ubicación</div>
+                <div class="text-secondary">Córdoba, Argentina</div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 mb-4">
+              <i class="bi bi-clock-fill fs-5 text-info"></i>
+              <div>
+                <div class="fw-semibold">Horarios</div>
+                <div class="text-secondary">Lun a Vie 9:00 a 18:00</div>
+              </div>
+            </div>
+
+            <hr>
+
+            <h6 class="fw-bold mb-3">Accesos rápidos</h6>
+            <div class="d-grid gap-2">
+              <a class="btn btn-outline-light" href="../brasil/brasil.html">
+                <i class="bi bi-sun-fill me-2"></i> Ver Brasil
+              </a>
+              <a class="btn btn-outline-light" href="../espana/espana.html">
+                <i class="bi bi-building me-2"></i> Ver España
+              </a>
+              <a class="btn btn-outline-light" href="../peru/peru.html">
+                <i class="bi bi-mountain me-2"></i> Ver Perú
+              </a>
+              <a class="btn btn-outline-warning" href="../carrito/carrito.html">
+                <i class="bi bi-bag-check-fill me-2"></i> Ir a Reserva
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+  <script type="module" src="../../index.js"></script>
+
+  <!-- Validación simple (sin archivo extra) -->
+  <script>
+    const form = document.getElementById("formContacto");
+    if (form) {
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (!form.checkValidity()) {
+          form.classList.add("was-validated");
+          return;
+        }
+        alert("Mensaje enviado (simulación). ¡Gracias por contactarnos!");
+        form.reset();
+        form.classList.remove("was-validated");
+      });
+    }
+  </script>
+</body>
+</html>

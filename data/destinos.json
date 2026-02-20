@@ -1,0 +1,229 @@
+[
+  {
+    "id": 101,
+    "categoria": "brasil",
+    "img": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Río Express",
+    "descripcion": "Río de Janeiro + Cristo Redentor. Ideal para primera vez.",
+    "precioBase": 320000,
+    "nochesBase": 5,
+    "btnColor": "success",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Traslados"],
+    "extras": [
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 12000 },
+      { "key": "excursion", "label": "Excursión Pan de Azúcar", "precio": 18000 }
+    ]
+  },
+  {
+    "id": 102,
+    "categoria": "brasil",
+    "img": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Búzios Relax",
+    "descripcion": "Playas, descanso y paseo en barco.",
+    "precioBase": 410000,
+    "nochesBase": 7,
+    "btnColor": "info",
+    "incluye": ["Hotel 4⭐", "Media pensión", "City tour"],
+    "extras": [
+      { "key": "traslado", "label": "Traslado aeropuerto", "precio": 15000 },
+      { "key": "barco", "label": "Paseo en barco", "precio": 22000 }
+    ]
+  },
+  {
+    "id": 103,
+    "categoria": "brasil",
+    "img": "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Florianópolis Aventura",
+    "descripcion": "Playas + actividades. Para ir con amigos.",
+    "precioBase": 295000,
+    "nochesBase": 6,
+    "btnColor": "warning",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Asistencia 24hs"],
+    "extras": [
+      { "key": "buggy", "label": "Buggy por dunas", "precio": 20000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 12000 }
+    ]
+  },
+  {
+    "id": 104,
+    "categoria": "brasil",
+    "img": "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Foz do Iguaçu",
+    "descripcion": "Cataratas + parque nacional. Imperdible.",
+    "precioBase": 360000,
+    "nochesBase": 4,
+    "btnColor": "danger",
+    "incluye": ["Hotel 4⭐", "Desayuno", "Entrada Cataratas"],
+    "extras": [
+      { "key": "paseo", "label": "Paseo Macuco Safari", "precio": 25000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 12000 }
+    ]
+  },
+  {
+    "id": 105,
+    "categoria": "brasil",
+    "img": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Salvador Cultural",
+    "descripcion": "Historia, música y playas del nordeste.",
+    "precioBase": 335000,
+    "nochesBase": 5,
+    "btnColor": "secondary",
+    "incluye": ["Hotel 3⭐", "Desayuno", "City tour histórico"],
+    "extras": [
+      { "key": "show", "label": "Show cultural", "precio": 17000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 12000 }
+    ]
+  },
+
+  {
+    "id": 201,
+    "categoria": "espana",
+    "img": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Madrid Clásico",
+    "descripcion": "Centro, museos y tapas. Ideal para arrancar España.",
+    "precioBase": 520000,
+    "nochesBase": 6,
+    "btnColor": "success",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Paseo guiado"],
+    "extras": [
+      { "key": "toledo", "label": "Excursión a Toledo", "precio": 28000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 15000 }
+    ]
+  },
+  {
+    "id": 202,
+    "categoria": "espana",
+    "img": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Barcelona Modernista",
+    "descripcion": "Sagrada Familia, playas y Gaudí.",
+    "precioBase": 560000,
+    "nochesBase": 6,
+    "btnColor": "info",
+    "incluye": ["Hotel 4⭐", "Desayuno", "City tour"],
+    "extras": [
+      { "key": "campnou", "label": "Tour estadio (según disponibilidad)", "precio": 25000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 15000 }
+    ]
+  },
+  {
+    "id": 203,
+    "categoria": "espana",
+    "img": "https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Andalucía (Sevilla)",
+    "descripcion": "Flamenco, historia y gastronomía.",
+    "precioBase": 545000,
+    "nochesBase": 7,
+    "btnColor": "warning",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Walking tour"],
+    "extras": [
+      { "key": "flamenco", "label": "Show flamenco", "precio": 30000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 15000 }
+    ]
+  },
+  {
+    "id": 204,
+    "categoria": "espana",
+    "img": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Valencia & Playa",
+    "descripcion": "Ciudad + descanso en la costa.",
+    "precioBase": 510000,
+    "nochesBase": 6,
+    "btnColor": "danger",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Tour gastronómico"],
+    "extras": [
+      { "key": "paella", "label": "Clase de paella", "precio": 26000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 15000 }
+    ]
+  },
+  {
+    "id": 205,
+    "categoria": "espana",
+    "img": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Islas Baleares (Mallorca)",
+    "descripcion": "Playas paradisíacas y relax total.",
+    "precioBase": 620000,
+    "nochesBase": 7,
+    "btnColor": "secondary",
+    "incluye": ["Hotel 4⭐", "Desayuno", "Asistencia 24hs"],
+    "extras": [
+      { "key": "barco", "label": "Paseo en barco", "precio": 35000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 15000 }
+    ]
+  },
+
+  {
+    "id": 301,
+    "categoria": "peru",
+    "img": "https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Cusco & Machu Picchu",
+    "descripcion": "La experiencia más buscada. Historia y paisajes.",
+    "precioBase": 480000,
+    "nochesBase": 6,
+    "btnColor": "success",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Entrada Machu Picchu"],
+    "extras": [
+      { "key": "tren", "label": "Tren turístico", "precio": 40000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 14000 }
+    ]
+  },
+  {
+    "id": 302,
+    "categoria": "peru",
+    "img": "https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Lima Gastronómica",
+    "descripcion": "Tour culinario + city tour.",
+    "precioBase": 390000,
+    "nochesBase": 5,
+    "btnColor": "info",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Tour gastronómico"],
+    "extras": [
+      { "key": "miraflores", "label": "Bici tour Miraflores", "precio": 22000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 14000 }
+    ]
+  },
+  {
+    "id": 303,
+    "categoria": "peru",
+    "img": "https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Arequipa & Cañón del Colca",
+    "descripcion": "Naturaleza y aventura en altura.",
+    "precioBase": 455000,
+    "nochesBase": 6,
+    "btnColor": "warning",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Excursión Colca"],
+    "extras": [
+      { "key": "mirador", "label": "Mirador del Cóndor", "precio": 25000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 14000 }
+    ]
+  },
+  {
+    "id": 304,
+    "categoria": "peru",
+    "img": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Ica & Huacachina",
+    "descripcion": "Dunas, buggy y atardecer.",
+    "precioBase": 370000,
+    "nochesBase": 4,
+    "btnColor": "danger",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Buggy en dunas"],
+    "extras": [
+      { "key": "sandboard", "label": "Sandboard", "precio": 18000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 14000 }
+    ]
+  },
+  {
+    "id": 305,
+    "categoria": "peru",
+    "img": "https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=1200&q=60",
+    "nombre": "Puno & Lago Titicaca",
+    "descripcion": "Islas flotantes y cultura local.",
+    "precioBase": 420000,
+    "nochesBase": 5,
+    "btnColor": "secondary",
+    "incluye": ["Hotel 3⭐", "Desayuno", "Paseo Lago Titicaca"],
+    "extras": [
+      { "key": "islas", "label": "Islas Uros + Taquile", "precio": 28000 },
+      { "key": "seguro", "label": "Seguro de viaje", "precio": 14000 }
+    ]
+  }
+]

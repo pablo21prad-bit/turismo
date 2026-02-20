@@ -1,0 +1,87 @@
+/* =========================
+   ESTILOS GENERALES
+========================= */
+
+body {
+  color: white;
+  background-color: rgb(3, 31, 56);
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  height: 100vh;
+  background-image: url('../assets/Fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Overlay oscuro para mejor lectura del texto */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Asegura que el contenido quede arriba del overlay */
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================
+   TARJETAS / CONTENIDO
+========================= */
+
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #000;
+}
+
+.card .text-secondary {
+  color: #6c757d !important;
+}
+
+/* =========================
+   BOTONES (opcional)
+========================= */
+
+.btn-success {
+  font-weight: 600;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+  text-decoration: none;
+}
+
+/* =========================
+   CARDS UNIFORMES (MEJORADO)
+========================= */
+
+.card {
+  height: 100%;
+}
+
+/* Imagen tipo “banner” (más grande y prolija) */
+.card img {
+  width: 100%;
+  height: 320px;      /* 🔥 subí la altura (probá 300–360) */
+  object-fit: cover;  /* recorta sin deformar */
+  display: block;
+}
+
+/* Mantiene el contenido prolijo */
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

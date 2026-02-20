@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma Turística</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+  >
+</head>
+
+<body data-bs-theme="dark" style="background: radial-gradient(circle at top, #16324f 0%, #0b1020 55%, #070a14 100%);">
+
+  <header>
+    
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="container py-5">
+      <div class="row align-items-center g-4">
+
+        <div class="col-12 col-lg-7">
+          <span class="badge text-bg-success mb-3">
+            <i class="bi bi-airplane-fill me-1"></i> Plataforma Web Turística
+          </span>
+
+          <h1 class="display-5 fw-bold">
+            Elegí tu destino, calculá el costo y reservá en minutos
+          </h1>
+
+          <p class="lead text-secondary mt-3">
+            Simulá paquetes turísticos con costos dinámicos, validación de datos y reserva.
+            Todo desde una sola plataforma.
+          </p>
+
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a class="btn btn-success btn-lg" href="./pages/brasil/brasil.html">
+              <i class="bi bi-geo-alt-fill me-2"></i> Ver Brasil
+            </a>
+
+            <a class="btn btn-outline-light btn-lg" href="./pages/espana/espana.html">
+              <i class="bi bi-geo-alt me-2"></i> Ver España
+            </a>
+
+            <a class="btn btn-outline-info btn-lg" href="./pages/peru/peru.html">
+              <i class="bi bi-geo-alt me-2"></i> Ver Perú
+            </a>
+
+            <a class="btn btn-outline-warning btn-lg" href="./pages/carrito/carrito.html">
+              <i class="bi bi-bag-check-fill me-2"></i> Ver Reserva
+            </a>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3 mt-4 text-secondary">
+            <div><i class="bi bi-check2-circle me-2"></i>Destinos</div>
+            <div><i class="bi bi-calculator me-2"></i>Cálculo dinámico</div>
+            <div><i class="bi bi-shield-check me-2"></i>Validación</div>
+            <div><i class="bi bi-receipt me-2"></i>Reserva</div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-5">
+          <div class="card border-0 shadow-lg" style="background: rgba(255,255,255,.06); backdrop-filter: blur(10px);">
+            <div class="card-body p-4">
+
+              <h5 class="fw-bold mb-3">
+                <i class="bi bi-lightning-charge-fill text-warning me-2"></i>
+                ¿Cómo funciona?
+              </h5>
+
+              <div class="d-flex gap-3 mb-3">
+                <div class="fs-4">1</div>
+                <div>
+                  <div class="fw-semibold">Elegí un destino</div>
+                  <div class="text-secondary small">Brasil, España o Perú.</div>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3 mb-3">
+                <div class="fs-4">2</div>
+                <div>
+                  <div class="fw-semibold">Ajustá pasajeros y noches</div>
+                  <div class="text-secondary small">El total se calcula automáticamente.</div>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3 mb-3">
+                <div class="fs-4">3</div>
+                <div>
+                  <div class="fw-semibold">Agregá a la reserva</div>
+                  <div class="text-secondary small">Se guarda en localStorage.</div>
+                </div>
+              </div>
+
+              <div class="d-flex gap-3">
+                <div class="fs-4">4</div>
+                <div>
+                  <div class="fw-semibold">Confirmá</div>
+                  <div class="text-secondary small">Validamos datos y simulamos la reserva final.</div>
+                </div>
+              </div>
+
+              <hr class="my-4">
+
+              <div class="d-grid">
+                <a href="./pages/brasil/brasil.html" class="btn btn-success">
+                  Empezar ahora <i class="bi bi-arrow-right ms-2"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- DESTINOS DESTACADOS -->
+    <section class="container pb-5">
+      <h2 class="fw-bold mb-3">Destinos destacados</h2>
+      <p class="text-secondary mb-4">
+        Elegí uno para ver paquetes y simular el costo.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="fw-bold"><i class="bi bi-sun-fill text-warning me-2"></i>Brasil</h5>
+              <p class="text-secondary">Playas, excursiones y relax.</p>
+              <a class="btn btn-sm btn-success" href="./pages/brasil/brasil.html">Ver paquetes</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="fw-bold"><i class="bi bi-building text-info me-2"></i>España</h5>
+              <p class="text-secondary">Ciudades, cultura y gastronomía.</p>
+              <a class="btn btn-sm btn-outline-light" href="./pages/espana/espana.html">Ver paquetes</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <h5 class="fw-bold"><i class="bi bi-mountain text-secondary me-2"></i>Perú</h5>
+              <p class="text-secondary">Historia, aventura y paisajes.</p>
+              <a class="btn btn-sm btn-outline-info" href="./pages/peru/peru.html">Ver paquetes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container pb-4 text-secondary small">
+    <div class="d-flex flex-wrap justify-content-between gap-2">
+      <div>© Plataforma Turística - Simulación académica</div>
+      <div>Bootstrap + JS + localStorage</div>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
