@@ -59,7 +59,7 @@ No se utilizaron tecnologías adicionales fuera de las vistas en clase.
 ---
 
 ## Repositorio en GitHub
-(agregar link del repositorio)
+https://github.com/pablo21prad-bit/turismo.git
 
 ---
 
